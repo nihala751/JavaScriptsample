@@ -1,0 +1,193 @@
+JavaScript
+-----------
+
+JS is a high level language
+
+NodeJS:- nodejs is a compiler of javascript(it is used to run java script)
+
+fuctions and methonds - are used to do specific task or programming
+
+console.log() - is a method in js to display data
+
+function-()
+methods-.() - console.log()
+
+*Two types of functions/methods
+1)user defined-> user created function/methods for doing a task
+2)inbuild-> already created function/methods in js eg- console.log()
+
+data types in js
+..................
+a)numerical
+int-1 2 -3 -1
+float- .3 -0.1 -0.3
+
+1)Number
+
+
+
+b)non-numerical
+
+
+2)String "",''
+     eg-"hy" ,'hello'
+
+3)Boolean 
+  true:1
+  false:0
+
+4)Null
+    empty data
+
+5)Undefined
+    not defined yet
+
+"100"-it is consider as a string data types
+
+ 6)BigInt- max length of Number 15
+
+
+
+  Variables
+ ............
+ variables are used to store data's temporerly in programming file.
+
+ permanent data store -database (mongoDB ,sql) pendrive.disk,cloud
+ 
+
+  stricltly typed
+ ................
+ int num
+ num =123 
+ eg-c c++ java angular
+
+  Dynamic typed
+................
+num=123
+num="hy"
+eg-js python
+
+ Features of javascript
+........................
+1.high level language
+2.Dynamically
+3.Case sensitive
+4.Compiled language-becuase node js is used as a compiler
+
+
+ Variable name in rules
+.........................
+*No space
+    eg- my_variable=4(under score-snake notation)
+        myVariable=4( capital letter-camel notation)
+*Numbers not want to add in the start
+ _1=anu
+ a1=53
+
+*Operator symbol not want use in variables
+
+
+
+typeof -is a inbuilt function in js to check the variable type
+
+ features of javascript
+........................
+.high level language
+.Dynamically typed
+.Case sensitive
+.Compiled language
+
+ Variable Declaration
+......................
+1)var (default) 
+2)let
+3)const 
+
+syntax variable name=data
+
+1.)var-varie data  js use var as bydefualt
+eg:var a=21
+   console.log(a) ->output -21
+   2.)const-cannot varie data it is constant
+   eg:const a=20
+    a=20
+   console.log(a) ->error
+
+ let
+.....
+where the data can only be change inside the curly bracket otherwise it deosnt work.
+
+eg:block{
+  let a=1
+  a=2
+} 
+
+ display
+.........
+,-coma
++-plus
+`${}-back tick and dollar symbol
+
+ Arithmaic Operator
+....................
++ -addition
+- -subtration
+* -multiplication
+/ -substraction
+%  -modulus
+** -
+
+ relational Operator
+.....................
+<
+>
+<=
+>=
+==  in double == its only check the data and value
+!=
+=== in tripple === it check the value and type of data
+
+Assignment Operator- (=)
+ eg-var n=1 (=) is the assignment operator
+
+ compound assignment operator
+..............................
+var num3=5
+//num3=num3+5//5+5
+num3+=5
+console.log(num3);
+
+  increment and decrement operators
+.....................................
+var n=5
+n++
+console.log(n);
+
+
+  logical operators
+....................
+and -&&
+OR  -||
+NOT -!
+
+
+
+
+ Flow of control
+.................
+1)decision making- developers can deside weather the code to be run at where.
+ conditional statements are helps to decision making they are IF, ELSE, ELSE IF
+2)looping -create a loop in set of code
+  for loop, while loop
+3)switching -to control loop
+      break , continue
+
+
+
+Syntax -if
+if (condition){
+  true code
+  console.log()
+}
+false code
+bcz false code is not work inside the if statement.
